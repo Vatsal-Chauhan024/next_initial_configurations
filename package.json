@@ -10,13 +10,17 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^19.8.1",
     "next": "15.5.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
