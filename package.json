@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "fixcode": "npx prettier --write . && npx eslint . --fix",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^19.8.1",
@@ -33,7 +33,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unicorn": "^60.0.0",
     "eslint-plugin-unused-imports": "^4.2.0",
-    "husky": "^9.1.7",
+    "husky": "^8.0.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
