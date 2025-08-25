@@ -1,1 +1,1 @@
-npx run fixcode
+npx lint-staged
